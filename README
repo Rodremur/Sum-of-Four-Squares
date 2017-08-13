@@ -1,0 +1,42 @@
+./foursquares
+/*-------------------------------
+ *By Rodrigo Reyes
+ *Problem 12031 UVa Online Judge
+ */
+You will be given an integer n, and you will have to express as summation of four square-numbers.
+For example 30 can be written as summation of four squares in the following way:
+30 = 4 * 4 + 3 * 3 + 2 * 2 + 1 * 1
+
+If a number can be expressed as summation of four squares in more than one ways, any one of them
+will do. A square is a number whose square root is also an integer.
+
+Input
+Input starts with an integer T (≤ 120000), denoting the number of test cases. Each case contains an
+integer n (0 ≤ n < 1017) in a line.
+
+Note: As the size of the input file is large, so use faster I/O functions like scanf(), printf().
+
+Output
+For each case, print a line containing four integer numbers a, b, c, d such that
+n = a^2 + b^2 + c^2 + d^2
+
+If the number cannot be expressed as summation of four squares then you should print ‘Impossible.’
+instead.
+
+Sample Input
+3
+30
+2
+0
+
+Sample Output
+5 2 0 1
+1 0 0 1
+0 0 0 0
+
+/*Example of the program running*/
+2			//Number of Test Cases
+30			//n number which we want to obtain with the four square sum
+5 2 1 0			//Result
+65			//n number which we want to obtain with the four square sum
+8 1 0 0			//Result
